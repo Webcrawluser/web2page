@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(9, 9, 70);
+  color: #fff;
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+  padding-top: 14px;
+  padding-left: 40px;
+}
+h5 {
+  margin-right: 200px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#type {
+  margin-left: 8px;
+  border-radius: 8px;
+}
+
+.picture {
+  width: 100%;
+  height: 597px;
+  background-size: cover;
+  background-image: url("new.jpg");
+  background-size: cover;
+}
+
+#grow {
+  width: 700px;
+  height: 140px;
+  background-color: #ffffffc2;
+  position: relative;
+  top: 457px;
+  left: 350px;
+  border-radius: 10px;
+}
+
+#grow h5 {
+  position: relative;
+  top: 22px;
+  left: 191px;
+  display: inline;
+}
+
+#grow h1 {
+  position: relative;
+  top: 35px;
+  left: 184px;
+  font-size: 30px;
+}
+
+#grow h6 {
+  position: relative;
+  top: 50px;
+  left: 277px;
+  border: 2px solid rgb(62, 162, 202);
+  padding: 10px;
+  display: inline;
+}
+
+#grow h6:hover {
+  background-color: rgb(62, 162, 202);
+}
+
+#main {
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+#service1 {
+  width: 320px;
+  height: 350px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 35px;
+  line-height: 25px;
+  position: relative;
+  top: 120px;
+  left: 70px;
+}
+
+#service2 {
+  width: 320px;
+  height: 350px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 35px;
+  line-height: 25px;
+  position: relative;
+  top: 120px;
+  left: 190px;
+}
+
+#service3 {
+  width: 320px;
+  height: 350px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 35px;
+  line-height: 25px;
+  position: relative;
+  top: 120px;
+  left: 320px;
+}
+
+h3 {
+  text-align: center;
+}
+h8 {
+  text-align: justify;
+}
+
+span {
+  border: 2px solid rgb(17, 106, 141);
+  padding: 5px;
+}
+
+span:hover {
+  background-color: rgb(17, 106, 141);
+}
+
+#about {
+  width: 100%;
+  height: 500px;
+  background-color: #61acc4fa;
+}
+
+#about h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#about div {
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
